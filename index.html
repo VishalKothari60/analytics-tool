@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#ffffff">
+  <title>Astera Studio · Mockup</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <!-- One font family. If offline, the system UI font is used instead. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Icon sprite: every icon is used with <svg><use href="#i-name"/></svg> -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3h11A2.5 2.5 0 0 1 20 5.5v8a2.5 2.5 0 0 1-2.5 2.5H10l-4.5 4v-4h0A1.5 1.5 0 0 1 4 14.5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+      <symbol id="i-dashboard" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3.5" y="3.5" width="7" height="9" rx="1.5"/><rect x="13.5" y="3.5" width="7" height="5" rx="1.5"/><rect x="13.5" y="11.5" width="7" height="9" rx="1.5"/><rect x="3.5" y="15.5" width="7" height="5" rx="1.5"/></g></symbol>
+      <symbol id="i-pipeline" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="5" cy="6" r="2.2"/><circle cx="5" cy="18" r="2.2"/><circle cx="19" cy="12" r="2.2"/><path d="M7.2 6h3.3a2 2 0 0 1 2 2v2a2 2 0 0 0 2 2h2.3M7.2 18h3.3a2 2 0 0 0 2-2v-2"/></g></symbol>
+      <symbol id="i-excel" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4"/><path d="M9 11l4 6M13 11l-4 6" stroke-linecap="round"/></g></symbol>
+      <symbol id="i-filter" viewBox="0 0 24 24"><path d="M4 5h16l-6.2 7.4V19l-3.6-1.8v-4.8z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+      <symbol id="i-database" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><ellipse cx="12" cy="6" rx="7" ry="2.8"/><path d="M5 6v12c0 1.5 3.1 2.8 7 2.8s7-1.3 7-2.8V6M5 12c0 1.5 3.1 2.8 7 2.8s7-1.3 7-2.8"/></g></symbol>
+      <symbol id="i-join" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="12" r="5.5"/><circle cx="15" cy="12" r="5.5"/></g></symbol>
+      <symbol id="i-transform" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9.5 4C7 4 7.5 9 6 10.2c1.5 1.2 1 9.8 3.5 9.8M14.5 4c2.5 0 2 5 3.5 6.2-1.5 1.2-1 9.8-3.5 9.8"/></g></symbol>
+      <symbol id="i-output" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 20h16"/><path d="M7 16v-5M12 16V6M17 16v-8"/></g></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.2 4.2L19 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-fail" viewBox="0 0 24 24"><path d="M7 7l10 10M17 7L7 17" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+      <symbol id="i-running" viewBox="0 0 24 24"><path d="M20 12a8 8 0 1 1-2.34-5.66" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="M20 4v4.5h-4.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="8"/><path d="M12 7.5V12l3 2"/></g></symbol>
+      <symbol id="i-pause" viewBox="0 0 24 24"><path d="M9 7v10M15 7v10" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+      <symbol id="i-dash" viewBox="0 0 24 24"><path d="M7 12h10" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+      <symbol id="i-warning" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><path d="M12 3.5l9.5 16.5h-19z"/><path d="M12 10v4.5M12 17.4v.1"/></g></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"><path d="M9 3.5h6l-1 5.5 3.5 3.5h-11L10 9z"/><path d="M12 12.5V20"/></g></symbol>
+      <symbol id="i-more" viewBox="0 0 24 24"><g fill="currentColor"><circle cx="5.5" cy="12" r="1.8"/><circle cx="12" cy="12" r="1.8"/><circle cx="18.5" cy="12" r="1.8"/></g></symbol>
+      <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+      <symbol id="i-chevron-right" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-chevron-left" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-chevron-down" viewBox="0 0 24 24"><path d="M5 9l7 7 7-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+      <symbol id="i-sidebar" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3.5" y="4.5" width="17" height="15" rx="2"/><path d="M9.5 4.5v15"/></g></symbol>
+      <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+      <symbol id="i-send" viewBox="0 0 24 24"><path d="M4 12l16-8-6 16-2.5-6.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+      <symbol id="i-vega" viewBox="0 0 24 24"><path d="M12 2.5c.9 5.6 3.3 8 9.5 9.5-6.2 1.5-8.6 3.9-9.5 9.5-.9-5.6-3.3-8-9.5-9.5 6.2-1.5 8.6-3.9 9.5-9.5z" fill="currentColor"/></symbol>
+      <symbol id="i-sliders" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></g></symbol>
+      <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+      <symbol id="i-lock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V8a4 4 0 0 1 8 0v2.5"/></g></symbol>
+      <symbol id="i-info" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5.5M12 7.6v.1"/></g></symbol>
+      <symbol id="i-desktop" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="4.5" width="18" height="12" rx="1.5"/><path d="M9 20h6M12 16.5V20"/></g></symbol>
+      <symbol id="i-reset" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12a8 8 0 1 0 2.3-5.7"/><path d="M4 4v4h4"/></g></symbol>
+      <symbol id="i-external" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6M20 4l-9 9"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></g></symbol>
+    </defs>
+  </svg>
+
+  <div class="app" id="app" data-sidebar="expanded">
+    <!-- Sidebar: persistent on desktop, collapsible rail on iPad, hidden on phone -->
+    <aside class="sidebar" id="sidebar" aria-label="Main navigation">
+      <div class="sidebar__brand">
+        <img src="assets/logo.svg" alt="" width="28" height="28">
+        <span class="sidebar__brand-text"><strong>Astera</strong> Studio</span>
+      </div>
+      <nav class="sidebar__nav" id="sidebar-nav"></nav>
+      <div class="sidebar__footer">
+        <button class="btn btn--ghost btn--sm sidebar__reset" type="button" data-action="reset-demo">
+          <svg class="icon" aria-hidden="true"><use href="#i-reset"/></svg><span class="sidebar__label">Reset demo</span>
+        </button>
+        <p class="sidebar__credit sidebar__label">Mockup by Vishal Kothari<br>FAST NUCES · Batch 2027</p>
+      </div>
+    </aside>
+
+    <div class="main-col">
+      <!-- Global Studio header -->
+      <header class="topbar" id="topbar">
+        <button class="icon-btn topbar__sidebar-toggle" type="button" data-action="toggle-sidebar" aria-label="Collapse sidebar" aria-expanded="true">
+          <svg class="icon" aria-hidden="true"><use href="#i-sidebar"/></svg>
+        </button>
+        <a class="topbar__brand" href="#dashboard" aria-label="Astera Studio home">
+          <img src="assets/logo.svg" alt="" width="26" height="26">
+          <span><strong>Astera</strong> Studio</span>
+        </a>
+        <div class="topbar__title" id="topbar-title"></div>
+        <div class="topbar__actions">
+          <span class="topbar__company" title="Sample workspace">Brightline Supply Co.</span>
+          <a class="btn btn--vega btn--sm topbar__ask" href="#chat">
+            <svg class="icon" aria-hidden="true"><use href="#i-vega"/></svg><span>Ask Vega</span>
+          </a>
+        </div>
+      </header>
+
+      <main id="main" class="main" tabindex="-1"></main>
+    </div>
+
+    <!-- Bottom tab bar: phone only -->
+    <nav class="tabbar" id="tabbar" aria-label="Main navigation">
+      <a class="tabbar__item" href="#chat" data-tab="chat">
+        <svg class="icon" aria-hidden="true"><use href="#i-vega"/></svg><span>Chat</span>
+      </a>
+      <a class="tabbar__item" href="#dashboard" data-tab="dashboard">
+        <svg class="icon" aria-hidden="true"><use href="#i-dashboard"/></svg><span>Dashboard</span>
+      </a>
+      <a class="tabbar__item" href="#pipelines" data-tab="pipelines">
+        <svg class="icon" aria-hidden="true"><use href="#i-pipeline"/></svg><span>Pipelines</span>
+        <span class="tabbar__badge" id="tab-badge" hidden></span>
+      </a>
+    </nav>
+  </div>
+
+  <!-- Overlays -->
+  <div id="sheet-root"></div>
+  <div id="toast-root" class="toast-root" role="status" aria-live="polite"></div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Mockup mark: a rounded square with a four-point star (Vega) -->
+  <rect width="32" height="32" rx="8" fill="#1f3fae"/>
+  <path d="M16 6.5c.9 5 2.6 6.7 7.5 7.5-4.9.8-6.6 2.5-7.5 7.5-.9-5-2.6-6.7-7.5-7.5 4.9-.8 6.6-2.5 7.5-7.5z" fill="#ffffff"/>
+  <circle cx="23" cy="23" r="2" fill="#8fb4ff"/>
+</svg>
